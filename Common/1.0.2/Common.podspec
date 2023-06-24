@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
   s.dependency 'AlamofireImage'
   s.dependency 'Alamofire'
 
-  s.source_files = "Common/**/*.{swift}"
-  
+  s.source_files = "Common/**/*.{swift,xib,xcassets}"
+
   s.swift_version = "5"
  
 end
